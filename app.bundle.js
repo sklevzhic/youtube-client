@@ -283,7 +283,7 @@ ansiHTML.reset()
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "* {\n    font-family: Roboto, Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n    box-sizing: border-box;\n}\n\n\n\n.searchBox {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    background: linear-gradient(to right, #212020, #743228);\n    width: 100vw;\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n#searchField {\n    width: 50vw;\n    font-size: 2rem;\n    background: white;\n    border-radius: 8px 0 0 8px;\n    border: none;\n    padding: 8px;\n    font-weight: 400;\n    opacity: .7;\n}\n\n#searchField:focus {\n    opacity: 1;\n}\n\n#searchButton {\n    font-size: 2rem;\n    background: #ff0005;\n    border-radius: 0 8px 8px 0;\n    border: none;\n    padding: 8px;\n    font-weight: 600;\n    color: white;\n    cursor: pointer;\n}\n\n.video__item {\n    background: #e0e0e0;\n    width: 21vw;\n    overflow: hidden;\n    padding-top: 10px;\n    border-radius: 4px;\n    display: inline-block;\n    vertical-align: top;\n    margin: 0 2vw;\n    height: 57vh;\n    position: relative;\n  }\n\n  .video__item:hover {\n    background: #e6cece;\n    box-shadow: -1px 1px 15px -6px #000000;\n  }\n  \n  .video__preview {\n    width: 100%;\n  }\n\n  a.video_title {\n    text-decoration: none;\n    color: white;\n    background: #e72138;\n    display: block;\n    align-content: center;\n    white-space: normal;\n    font-size: 1rem;\n    position: absolute;\n    left: 0;\n    width: 100%;\n    padding: 5px;\n    top: 0;\n    text-align: center;\n    opacity: .9;\n}\n\n.video__author {\n    font-size: 1rem;\n    font-weight: 600;\n    border-bottom: 2px solid;\n    position: relative;\n    white-space: normal;\n    padding: 10px 10px 10px 15%;\n    letter-spacing: -1.2px;\n}\n\n.video__info--wrapper {\n    display: flex;\n    justify-content: space-evenly;\n    margin: 35px 0px;\n}\n\n.video__countviews {\n    position: relative;\n    margin: 0;\n}\n\n.video__countviews::before, .video__date::before, .video__author::before {\n    position: absolute;\n    width: 25px;\n    height: 25px;\n    margin-left: -29px;\n    margin-top: -3px;\n    font-family: FontAwesome;\n}\n.video__countviews::before {\n    content: \"\\f06e\";\n    \n}\n\n.video__author::before {\n    content: \"\\f007\";\n}\n\n.video__data::before {\n    content: \"\\f073\";\n}\n\n\n.video__date {\n    position: relative;\n}\n\n.video_description {\n    font-size: 13px;\n    color: grey;\n    white-space: normal;\n    padding: 11px;\n}\n\n.video__wrapper {\n    position: relative;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    white-space: nowrap;\n    transition: all 0.2s;\n    will-change: transform;\n    user-select: none;\n    cursor: pointer;\n    padding-top: 9vh;\n\n}\n\n.slider-control {\n    position: absolute;\n    bottom: 0;\n    left: calc(50vw - 80px);\n    display: flex;\n    align-content: center;\n    align-items: center;\n    display: none\n}\n\n.current-position {\n    margin: 0 10px;\n}\n\n.slider-control button {\n        padding: 21px;\n}\n.main {\n    background: #cbbfbd;\n    min-height: 85vh;\n    display: none;\n}\n\n.slider-control-left {\n    position: relative;\n}\n\n.slider-control--prev {\n    position: absolute;\n    padding: 10px;\n    background: red;\n    left: -30px;\n    bottom: 10px;\n    display: none;\n}\n\n.slider-control-right {\n    position: relative;\n}\n\n.slider-control--next {\n    position: absolute;\n    padding: 10px;\n    background: red;\n    right: -30px;\n    bottom: 10px;\n    display: none;\n}\n\n\n@media (min-width: 0) and (max-width: 550px) {\n    .video__item {\n        width: 94vw;\n        margin: 0 3vw;\n    }      \n}\n\n\n@media (min-width: 550px) and (max-width: 900px) {\n    .video__item {\n        width: 46vw;\n        margin: 2vw;\n    }      \n}\n\n@media (min-width: 900px) and (max-width: 1100px) {\n    .video__item {\n        width: 31vw;\n        margin: 1.16vw;\n    }      \n}\n", ""]);
+exports.push([module.i, "* {\n    font-family: Roboto, Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n    box-sizing: border-box;\n}\n\n\n\n.searchBox {\n    display: flex;\n    margin: 0;\n    padding: 0;\n    background: linear-gradient(to right, #212020, #743228);\n    width: 100vw;\n    height: 100vh;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n}\n\n#searchField {\n    width: 50vw;\n    font-size: 2rem;\n    background: white;\n    border-radius: 8px 0 0 8px;\n    border: none;\n    padding: 8px;\n    font-weight: 400;\n    opacity: .7;\n}\n\n#searchField:focus {\n    opacity: 1;\n}\n\n#searchButton {\n    font-size: 2rem;\n    background: #ff0005;\n    border-radius: 0 8px 8px 0;\n    border: none;\n    padding: 8px;\n    font-weight: 600;\n    color: white;\n    cursor: pointer;\n}\n\n.video__item {\n    background: #e0e0e0;\n    width: 21vw;\n    overflow: hidden;\n    padding-top: 10px;\n    border-radius: 4px;\n    display: inline-block;\n    vertical-align: top;\n    margin: 0 2vw;\n    height: 57vh;\n    position: relative;\n  }\n\n  .video__item:hover {\n    background: #e6cece;\n    box-shadow: -1px 1px 15px -6px #000000;\n  }\n  \n  .video__preview {\n    width: 100%;\n  }\n\n  a.video_title {\n    text-decoration: none;\n    color: white;\n    background: #e72138;\n    display: block;\n    align-content: center;\n    white-space: normal;\n    font-size: 1rem;\n    position: absolute;\n    left: 0;\n    width: 100%;\n    padding: 5px;\n    top: 0;\n    text-align: center;\n    opacity: .9;\n}\n\n.video__author {\n    font-size: 1rem;\n    font-weight: 600;\n    border-bottom: 2px solid;\n    position: relative;\n    white-space: normal;\n    padding: 10px 10px 10px 15%;\n    letter-spacing: -1.2px;\n}\n\n.video__info--wrapper {\n    display: flex;\n    justify-content: space-evenly;\n    margin: 35px 0px;\n}\n\n.video__countviews {\n    position: relative;\n    margin: 0;\n}\n\n.video__countviews::before, .video__date::before, .video__author::before {\n    position: absolute;\n    width: 25px;\n    height: 25px;\n    margin-left: -29px;\n    margin-top: -3px;\n    font-family: FontAwesome;\n}\n.video__countviews::before {\n    content: \"\\f06e\";\n    \n}\n\n.video__author::before {\n    content: \"\\f007\";\n}\n\n.video__data::before {\n    content: \"\\f073\";\n}\n\n\n.video__date {\n    position: relative;\n}\n\n.video_description {\n    font-size: 13px;\n    color: grey;\n    white-space: normal;\n    padding: 11px;\n}\n\n.video__wrapper {\n    position: relative;\n    overflow-x: hidden;\n    overflow-y: hidden;\n    white-space: nowrap;\n    transition: all 0.2s;\n    will-change: transform;\n    user-select: none;\n    cursor: pointer;\n    padding-top: 9vh;\n\n}\n\n.slider-control {\n    position: absolute;\n    bottom: 0;\n    left: calc(50vw - 80px);\n    display: flex;\n    align-content: center;\n    align-items: center;\n    display: none\n}\n\n.current-position {\n    margin: 0 10px;\n    line-height: 62px;\n    background: #2b2221;\n    width: 62px;\n    text-align: center;\n    border-radius: 51%;\n    font-size: 28px;\n    border: 2px solid white;\n    color: white;\n}\n\n.slider-control button {\n    padding: 13px;\n    background: white;\n    border-radius: 50%;\n}\n.main {\n    background: #cbbfbd;\n    min-height: 85vh;\n    display: none;\n}\n\n.slider-control-left {\n    position: relative;\n}\n\n.slider-control--prev {\n    position: absolute;\n    padding: 10px;\n    background: #d44a4a99;\n    left: 3px;\n    bottom: 49px;\n    display: none;\n}\n\n.slider-control-right {\n    position: relative;\n}\n\n.slider-control--next {\n    position: absolute;\n    padding: 10px;\n    background: #d44a4a99;\n    right: 3px;\n    bottom: 49px;\n    display: none;\n}\n\n\n@media (min-width: 0) and (max-width: 550px) {\n    .video__item {\n        width: 94vw;\n        margin: 0 3vw;\n    }      \n}\n\n\n@media (min-width: 550px) and (max-width: 900px) {\n    .video__item {\n        width: 46vw;\n        margin: 2vw;\n    }      \n}\n\n@media (min-width: 900px) and (max-width: 1100px) {\n    .video__item {\n        width: 31vw;\n        margin: 1.16vw;\n    }      \n}\n", ""]);
 
 
 
@@ -10279,39 +10279,45 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-Object(_loadPage_js__WEBPACK_IMPORTED_MODULE_1__["loadPage"])(); // Поиск видео
-
+Object(_loadPage_js__WEBPACK_IMPORTED_MODULE_1__["loadPage"])();
 const searchButton = document.getElementById('searchButton');
 const videoWrapper = document.querySelector('.video__wrapper');
 searchButton.addEventListener('click', _queries_js__WEBPACK_IMPORTED_MODULE_0__["searchVideos"]);
 document.addEventListener('keydown', e => {
   if (e.keyCode === 13) Object(_queries_js__WEBPACK_IMPORTED_MODULE_0__["searchVideos"])();
-}); // проверка для подшрузки видео
+});
 
 function checkWidth() {
   if (videoWrapper.scrollLeft > videoWrapper.scrollWidth - 3000) {
     Object(_queries_js__WEBPACK_IMPORTED_MODULE_0__["searchVideos"])();
   }
-} // Элементы управления слайдером
-
+}
 
 const sliderControlLeft = document.querySelector('.slider-control-left');
 const sliderControlRight = document.querySelector('.slider-control-right');
 const currentPosition = document.querySelector('.current-position');
 const sliderControlLeftPrev = document.querySelector('.slider-control--prev');
 const sliderControlLeftNext = document.querySelector('.slider-control--next');
-let count = 1; //////// Кнопки и свайпы
-
+let count = 1;
 let countElementsInWindow;
 let countElementsInObject;
 let mouseupX = 0;
 let mousedownX = 0;
+let touchstartX = 0;
+let touchendX = 0;
 videoWrapper.addEventListener('mousedown', function (event) {
   mousedownX = event.screenX;
 });
 videoWrapper.addEventListener('mouseup', function (event) {
   mouseupX = event.screenX;
-  handleGesure();
+  handleGesureMouse();
+});
+videoWrapper.addEventListener('touchstart', function (event) {
+  touchstartX = event.screenX;
+});
+videoWrapper.addEventListener('touchend', function (event) {
+  touchendX = event.screenX;
+  handleGesureTouch();
 });
 
 function swipeLeft() {
@@ -10340,9 +10346,24 @@ function swipeRight() {
   }
 }
 
-sliderControlLeft.addEventListener('click', swipeLeft);
-sliderControlRight.addEventListener('click', swipeRight); /////////// tooltipe
+function handleGesureMouse() {
+  if (mousedownX > mouseupX) {
+    swipeRight();
+  } else if (mousedownX < mouseupX) {
+    swipeLeft();
+  }
+}
 
+function handleGesureTouch() {
+  if (touchstartX > touchendX) {
+    swipeRight();
+  } else if (touchstartX < touchendX) {
+    swipeLeft();
+  }
+}
+
+sliderControlLeft.addEventListener('click', swipeLeft);
+sliderControlRight.addEventListener('click', swipeRight);
 sliderControlLeft.addEventListener('mouseover', () => {
   sliderControlLeftPrev.style.display = 'block';
   sliderControlLeftPrev.innerText = count - 1;
@@ -10356,46 +10377,7 @@ sliderControlRight.addEventListener('mouseover', () => {
 });
 sliderControlRight.addEventListener('mouseout', () => {
   sliderControlLeftNext.style.display = 'none';
-}); //перемещение мышью
-// let startX;
-// let scrollLeft;
-// let isDown;
-// function mouseIsDown(e) {
-//   isDown = true;
-//   startX = e.pageX - videoWrapper.offsetLeft;
-//   scrollLeft = videoWrapper.scrollLeft;
-//   checkWidth();
-// }
-// function mouseUp() {
-//   isDown = false;
-// }
-// function mouseLeave() {
-//   isDown = false;
-// }
-// function mouseMove(e) {
-//   if (isDown) {
-//     e.preventDefault();
-//     const x = e.pageX - videoWrapper.offsetLeft;
-//     const walkX = x - startX;
-//     videoWrapper.scrollLeft = scrollLeft - walkX;      
-//   }
-// }
-// videoWrapper.addEventListener('mousedown', e => mouseIsDown(e)); 
-// videoWrapper.addEventListener('mouseup', e => mouseUp(e));
-// videoWrapper.addEventListener('mousemove', e => mouseMove(e));
-// videoWrapper.addEventListener('mouseleave', e => mouseLeave(e));
-// videoWrapper.addEventListener('touchstart', e => mouseIsDown(e));  
-// videoWrapper.addEventListener('touchend', e => mouseUp(e))
-// videoWrapper.addEventListener('touchmove', e => mouseMove(e));
-// videoWrapper.addEventListener('touchleave', e => mouseLeave(e));
-
-function handleGesure() {
-  if (mousedownX > mouseupX) {
-    swipeRight();
-  } else if (mousedownX < mouseupX) {
-    swipeLeft();
-  }
-}
+});
 
 /***/ }),
 
@@ -10449,7 +10431,7 @@ __webpack_require__.r(__webpack_exports__);
 
 let nextPageToken = '';
 let saveInput;
-const YOUTUBE_KEY = 'AIzaSyC7PVXxbqOhLEDSERCTs2OkAJDoL_M97Sw';
+const YOUTUBE_KEY = 'AIzaSyBlCgv7_LwJsX6JosMbqCfkDpV6h8PwEzI';
 function searchVideos() {
   const inputValue = document.querySelector('#searchField').value;
   if (saveInput !== inputValue) nextPageToken = '';

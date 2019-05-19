@@ -1,2 +1,2 @@
 # youtube-client
-https://github.com/sklevzhic/youtube-client/
+https://sklevzhic.github.io/youtube-client/
